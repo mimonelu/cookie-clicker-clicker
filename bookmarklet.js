@@ -29,8 +29,12 @@
 
                 gct: si(function() {
                     if (gc.style.display != 'none') {
-                        gc.dispatchEvent(me);
-                        console.log('Got Golden Cookie!');
+                     // if (gc.style.backgroundImage.indexOf('wrathCookie') === -1) {
+                            gc.dispatchEvent(me);
+                            console.log('Got a golden cookie!');
+                     // } else {
+                     //     console.log('I don\'t get red cookie...');
+                     // }
                     }
                 }, 1000)
 
