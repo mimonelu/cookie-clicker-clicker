@@ -14,6 +14,7 @@
             var d = document,
                 bc = d.getElementById('bigCookie'),
                 gc = d.getElementById('goldenCookie'),
+                sp = d.getElementById('seasonPopup'),
                 bct = null,
                 gct = null,
                 si = setInterval,
@@ -35,6 +36,10 @@
                      // } else {
                      //     console.log('I don\'t get red cookie...');
                      // }
+                    }
+                    if (sp.style.display != 'none') {
+                        sp.dispatchEvent(me);
+                        console.log('Got a season popup!');
                     }
                 }, 1000)
 
