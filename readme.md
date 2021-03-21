@@ -1,3 +1,5 @@
+**Gist で [最新版](https://gist.github.com/mimonelu/9499f1357c6d01d2fe6f0bf873f58cb3) を公開しました。**
+
 # Cookie Clicker Clicker
 
 ![Cookie Clicker](/catch.png)
